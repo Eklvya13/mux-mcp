@@ -1,0 +1,10 @@
+{
+  "name": "mux-data-readonly-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local read-only Mux Data MCP server",
+  "scripts": {"start": "node server.mjs", "check": "node --check server.mjs", "test": "node --test test.mjs"},
+  "dependencies": {"@modelcontextprotocol/server": "^2.0.0", "zod": "^4.0.0"},
+  "engines": {"node": ">=20"}
+}
